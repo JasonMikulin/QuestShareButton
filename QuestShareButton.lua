@@ -1,4 +1,4 @@
-local addonEnabled = True
+local addonEnabled = true
 
 local function GetQuestLogIndexByQuestID(questID)
     for i = 1, C_QuestLog.GetNumQuestLogEntries() do
