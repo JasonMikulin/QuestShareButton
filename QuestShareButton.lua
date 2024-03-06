@@ -1,4 +1,4 @@
-local addonEnabled = true
+local addonEnabled = false
 
 local function GetQuestLogIndexByQuestID(questID)
     for i = 1, C_QuestLog.GetNumQuestLogEntries() do
@@ -16,7 +16,7 @@ local function CreateShareButton(questBlock)
     button:SetText("Share")
     button:SetSize(40, 15)
     
-    -- Set position to the left, just below the quest title
+    -- Set position
     button:SetPoint("TOPLEFT", questBlock, "TOPLEFT", -50, -15)
 
     local fontString = button:GetFontString()
