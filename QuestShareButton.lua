@@ -108,6 +108,7 @@ frameLogin:SetScript("OnEvent", function(self, event)
     end
 end)
 
+--Command to disable or enable the addon
 SLASH_QUESTSHAREBUTTON1 = "/qsb"
 
 SlashCmdList["QUESTSHAREBUTTON"] = function(msg)
