@@ -1,4 +1,4 @@
-## Interface: 100206
+## Interface: 100205
 ## Title: Quest Share Button
 ## Notes: Adds a share button to shareable quests in the quest tracker.
 ## Author: Treran
