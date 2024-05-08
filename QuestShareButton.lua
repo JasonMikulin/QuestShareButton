@@ -16,7 +16,7 @@ local function CreateShareButton(questBlock)
     button:SetText("Share")
     button:SetSize(40, 15)
     
-    -- Set position to the left, just below the quest title
+    -- Set position
     button:SetPoint("TOPLEFT", questBlock, "TOPLEFT", -50, -15)
 
     local fontString = button:GetFontString()
@@ -108,6 +108,7 @@ frameLogin:SetScript("OnEvent", function(self, event)
     end
 end)
 
+--Command to disable or enable the addon
 SLASH_QUESTSHAREBUTTON1 = "/qsb"
 
 SlashCmdList["QUESTSHAREBUTTON"] = function(msg)
